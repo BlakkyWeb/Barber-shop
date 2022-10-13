@@ -363,7 +363,7 @@ hr{
 .social-links{
     text-align: center;
 }
-.social-links > .fab{
+.social-links > .bi{
     width: 40px;
     height: 40px;
     font-size: 30px;
@@ -374,8 +374,9 @@ hr{
     cursor: pointer;
     text-align: center;
     padding: 10px;
+    transition: all .15s ease-in-out;
 }
-.social-links > .fab:hover{
+.social-links > .bi:hover{
     background: #009688;
     color: #fff;
     transform: translateY(-7px);
